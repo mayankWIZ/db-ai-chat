@@ -1,6 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a DB AI Chat project to talk with your database in the chat which is serverless and only require one node server as we will be using models available on groq.
 
 ## Getting Started
+Put below envs in .env file
+
+NEXT_PUBLIC_COPILOTKIT_BACKEND_URL=http://localhost:3000/api/copilotkit
+NEXT_PUBLIC_GROQ_CLOUD_API_KEY=<GROQ CLOUD API KEY>
+NEXT_PUBLIC_RESTDB_API_KEY=<RESTDB_API_KEY>
+NEXT_PUBLIC_RESTDB_BASE_URL=https://<db_specific_pre_domain>.restdb.io/rest/<table-name>
 
 First, run the development server:
 
